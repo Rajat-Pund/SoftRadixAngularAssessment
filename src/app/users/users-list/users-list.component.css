@@ -1,0 +1,59 @@
+ 
+  
+
+
+  /* CSS */
+.add-user-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .action-button {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red */
+  }
+  
+  .edit-button {
+    background-color: #FFC107; /* Yellow */
+  }
+  
+  .toggle-button {
+    background-color: #4CAF50; /* Green */
+  }
+  

@@ -1,0 +1,23 @@
+ 
+
+<!-- HTML -->
+<button   (click)="addUser()" class="add-user-button">Add User</button>
+
+<table *ngIf="userlist.length > 0" class="user-table">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let user of userlist; let i = index">
+    <td>{{ user.name }}</td>
+    <td>{{ user.email }}</td>
+    <td>
+      <button (click)="deleteUser(i)" class="action-button delete-button">Delete</button>
+      <button (click)="editUser(i)" class="action-button edit-button">Edit</button>
+      <button (click)="toggleActivation(i)" class="action-button toggle-button">
+        {{ user.isActive ? 'Deactivate' : 'Activate' }}
+      </button> 
+    </td>
+  </tr>
+</table>
